@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p,
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  padding: 20px;
+  margin: 0;
+  background: lightblue;
+}
+
+.edit {
+  font-size: 10px;
+  color: blue;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.loading {
+  background-image: url('https://miro.medium.com/max/1080/0*DqHGYPBA-ANwsma2.gif');
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: 240px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+.todo-list {
+  padding: 60px 20px;
+  background-color: lightgoldenrodyellow;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+.todo-task-list-item {
+  cursor: pointer;
+}
+
+.unique {
+  color: green;
+}
+
+.todo-form {
+  padding: 12px;
+  border: solid 1px orange;
+  border-radius: 4px;
+}
+
+.todo-form input {
+  margin-right: 12px;
+  width: 320px;
+  font-weight: bolder;
+}
